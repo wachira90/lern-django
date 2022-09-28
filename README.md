@@ -1,0 +1,2 @@
+# lern-django
+lerning django
