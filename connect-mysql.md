@@ -30,3 +30,12 @@ DATABASES = {
 python manage.py runserver
 ````
 
+## install mysqlclient 
+
+````
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient
+
+pip install mysqlclient-1.4.6-cp37-cp37m-win_amd64.whl
+````
+
+
