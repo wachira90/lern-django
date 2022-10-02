@@ -17,6 +17,20 @@ DATABASES = {
 }
 ````
 
+### or 
+
+````
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'myproject',
+        'USER': 'myprojectuser',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
+````
 
 https://stackpython.medium.com/how-to-start-django-project-with-a-database-postgresql-aaa1d74659d8
 
