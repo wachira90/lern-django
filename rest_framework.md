@@ -5,6 +5,8 @@
 ````
 python -m pip install --upgrade pip
 
+pip install virtualenv
+
 python -m venv env
 
 (windows)
