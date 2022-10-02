@@ -74,6 +74,7 @@ class GroupViewSet(viewsets.ModelViewSet):
 ## add tutorial\tutorial\urls.py
 
 ````
+from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
 from quickstart import views
@@ -86,6 +87,7 @@ router.register(r'groups', views.GroupViewSet)
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
     path('', include(router.urls)),
+    path('sadmin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
 ````
@@ -105,6 +107,22 @@ INSTALLED_APPS = [
     ...
     'rest_framework',
 ]
+
+
+ALLOWED_HOSTS = ['localhost','127.0.0.1']
+````
+
+### add option 
+````
+APPEND_SLASH=True
+
+CACHES = {
+    'default': {
+        # 'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'LOCATION': 'unique-snowflake',
+    }
+}
 ````
 
 ## test run
