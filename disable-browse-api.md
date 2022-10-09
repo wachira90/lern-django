@@ -11,3 +11,11 @@ REST_FRAMEWORK = {
     )
 }
 ````
+
+
+### Per-view basis:
+
+````
+class MyView(...):
+    renderer_classes = [renderers.JSONRenderer]
+````    
