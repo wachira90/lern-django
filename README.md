@@ -10,3 +10,8 @@ pip install -r requirements.txt
 ````
 pip freeze > requirements.txt
 ````
+
+## setting 
+````
+TIME_ZONE = 'Asia/Bangkok'
+````
