@@ -36,3 +36,16 @@ pip freeze > requirements.txt
 ````
 TIME_ZONE = 'Asia/Bangkok'
 ````
+
+
+## command 
+````
+python manage.py makemigrations && python manage.py migrate
+
+python manage.py runserver 0.0.0.0:8000
+
+pip install mysqlclient==1.4.6
+````
+
+
+
