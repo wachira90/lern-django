@@ -15,9 +15,7 @@ python -m venv env
 (linux)
 source .\env\bin\activate
 
-pip install django
-
-pip install djangorestframework
+pip install django djangorestframework
 
 django-admin startproject tutorial
 
