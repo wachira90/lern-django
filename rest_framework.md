@@ -51,8 +51,7 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 
 ````
 from django.contrib.auth.models import User, Group
-from rest_framework import viewsets
-from rest_framework import permissions
+from rest_framework import viewsets, permissions
 from quickstart.serializers import UserSerializer, GroupSerializer
 
 
