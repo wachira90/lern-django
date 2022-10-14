@@ -48,4 +48,26 @@ pip install mysqlclient==1.4.6
 ````
 
 
+## LOOP CYCLE
 
+````
+
+# CREATE_MODEL
+appmain\api\models.py
+
+
+# REGISTER 
+appmain\api\admin.py
+
+
+# SERIALS LIST FILED
+appmain\api\serializers.py
+
+
+# VIEW
+appmain\api\views.py
+
+
+# URL CREATE PATH 
+appmain\appmain\urls.py
+````
