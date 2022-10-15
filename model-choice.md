@@ -24,3 +24,6 @@ class Runner(models.Model):
     medal = models.CharField(blank=True, choices=MedalType.choices, max_length=10)
 ````        
     
+
+https://docs.djangoproject.com/en/3.2/topics/db/models/
+
