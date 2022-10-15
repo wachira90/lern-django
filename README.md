@@ -74,7 +74,11 @@ appmain\appmain\urls.py
 
 
 ## Logging
+
+appmain\settings.py
+
 ````
+import logging
 logging.disable(logging.CRITICAL)
 
 logging.disable(logging.NOTSET)
