@@ -71,3 +71,11 @@ appmain\api\views.py
 # URL CREATE PATH 
 appmain\appmain\urls.py
 ````
+
+
+## Logging
+````
+logging.disable(logging.CRITICAL)
+
+logging.disable(logging.NOTSET)
+````
