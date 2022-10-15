@@ -81,5 +81,5 @@ appmain\settings.py
 import logging
 logging.disable(logging.CRITICAL)
 
-logging.disable(logging.NOTSET)
+# logging.disable(logging.NOTSET)
 ````
