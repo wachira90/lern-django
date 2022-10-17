@@ -6,7 +6,14 @@ lerning django
 ````
 @ECHO ON 
 python -m venv env
+# OR
+virtualenv env
+
+# WINDOWS
 env\Scripts\activate
+
+# LINUX
+source env\bin\activate
 ````
 
 ## init project init2.bat
@@ -44,7 +51,7 @@ python manage.py makemigrations && python manage.py migrate
 
 python manage.py runserver 0.0.0.0:8000
 
-pip install mysqlclient==1.4.6
+pip install mysqlclient==1.4.6   (if error [sudo apt install libmysqlclient-dev -y])
 ````
 
 
