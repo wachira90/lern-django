@@ -7,6 +7,8 @@ lerning django
 @ECHO ON 
 python -m venv env
 # OR
+virtualenv --python="/usr/bin/python2.6" env
+# OR
 virtualenv env
 
 # WINDOWS
