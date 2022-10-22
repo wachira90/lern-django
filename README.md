@@ -51,6 +51,8 @@ TIME_ZONE = 'Asia/Bangkok'
 ````
 python manage.py makemigrations && python manage.py migrate
 
+python manage.py createsuperuser --email admin@example.com --username admin
+
 python manage.py runserver 0.0.0.0:8000
 
 pip install mysqlclient==1.4.6   (if error [sudo apt install libmysqlclient-dev -y])
