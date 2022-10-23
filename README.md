@@ -1,6 +1,10 @@
 # lern-django
 lerning django
 
+python 3.7
+
+django 3.2
+
 ## init project init1.bat
 
 ````
