@@ -19,7 +19,7 @@ virtualenv env
 env\Scripts\activate
 
 # LINUX
-source env\bin\activate
+source env/bin/activate
 ````
 
 ## init project init2.bat
