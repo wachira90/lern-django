@@ -1,6 +1,8 @@
 # admin show field
 
-```
+## app/admin.py
+
+```py
 from django.contrib import admin
 from .models import stocklist, datastock
 
